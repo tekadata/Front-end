@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	/*margin: 5%;*/
+}
+
+.flex-box{
+	display: flex;
+	border: solid;
+	width: 100%;
+	margin-right: 2%;
+	margin-bottom: 5%;
+}
+
+img {
+	width:100%;
+}
+
+.description {
+	color: grey;
+	margin-right: 5%;
+}
+
+article, h1, p{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-text: center;
+	justify-content: flex-start;
+	margin-bottom: 5%;
+	width: 90%;
+}	
+
+header {
+    background-color: #0f4061;
+}
+
+.url-link {
+	font-size: 11;
+	padding: 10;
+}

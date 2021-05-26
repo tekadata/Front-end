@@ -1,0 +1,104 @@
+/****** Container de content _ body *********/
+.box_2,.box_5,.box_6{
+	margin:0;
+	padding:0;
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content:space-between;
+ 	align-items: center;
+ 	text-align: center;
+}
+.box_1,.box_4{
+	margin:0;
+	padding:0;
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content:center;
+ 	align-items: center;
+ 	text-align: center;
+}
+
+.box_centered{
+	margin:0;
+	padding:0;
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content:center;
+ 	align-items: center;
+ 	text-align: center;
+ 	background-color: #adadad;
+}
+
+
+.item1{
+	margin:0;
+	padding:0;
+	justify-content:center;
+	text-align: center;
+}
+
+.item3{
+	margin:0;
+	padding:0;
+	justify-content:center;
+	text-align: center;
+}
+
+.item2{
+	margin:0;
+	padding:0;
+	justify-content:flex-start;
+	text-align: center;
+}
+.lefttext{
+	margin:0;
+	padding:0;
+	justify-content:flex-start;
+	text-align: center;
+}
+
+.item4 {
+	margin:0;
+	padding:0;
+	justify-content:flex-start;
+	text-align: center;
+}
+
+.image_resized {
+	display: block;
+	max-width: 70%;
+}
+/****** Container de formulaire *********/
+input[type=text]{
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 10%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,103 @@
+.signature{
+	text-align: left;
+	font-size: 18px;
+}
+/* Paragraphe Cream*/
+.paragraphe_cream{
+  padding: 10px;
+  display : flex;
+  flex-wrap: wrap;
+ align-items:center;
+}
+
+.cream{
+  flex: 2;
+}
+
+.text-cream{
+  flex : 6;
+}
+
+/* Paragraphe Oven*/
+.paragraphe_oven{
+  margin: 10px;
+  padding: 10px;
+  display : flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+  background-color: #EEEAEA;
+}
+
+.oven{
+  flex: 2;
+  margin: 10px;
+  padding:10px;
+}
+
+.text-oven{
+  flex : 4 ;
+  margin: 10px;
+  padding:10px;
+}
+
+/* Paragraphe join*/
+.paragraphe_join{
+  padding: 10px;
+  display : flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+  background-color: #EEEAEA;
+}
+
+.text-join{
+  flex : 6;
+}
+
+/* Paragraphe button*/
+button {
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: #000000;
+   font-family: Verdana;
+   font-size: 10px;
+   font-weight: 100;
+   padding: 13px;
+   background-color: #FFD9A7;
+   border: solid #FFD9A7 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+button:hover {
+   background: #1ED037;
+   border: solid #1ED037 1px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+}
+
+/* Paragraphe round*/
+.paragraphe_rond{
+	padding: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.column{
+	flex: 33%;
+	padding: 5px;
+	float:left;
+}
+
+.round-image{
+	width:200px;
+    border-radius:50%; 
+}

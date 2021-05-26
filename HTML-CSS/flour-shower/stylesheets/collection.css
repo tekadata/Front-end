@@ -1,0 +1,35 @@
+
+/* Paragraphe super aligned*/
+.super_aligned{
+	font-size: 36px;
+	font-weight: bold;
+	position: relative;
+	top: 70px;
+	left:66px;
+	text-align: left;
+	
+
+}
+
+.paragraphe_eclair{
+  padding: 10px;
+  margin: 50px;
+  display : flex;
+  flex-wrap: wrap;
+  align-items:center;
+  background-color: #EEEAEA;
+  bottom:40px;
+}
+
+.eclair{
+  padding: 20px;
+  flex: 2;
+  max-width:50%;
+  max-height:50%;
+  height:auto;
+}
+
+.text-eclair{
+  flex : 4;
+  text-align: center;
+}

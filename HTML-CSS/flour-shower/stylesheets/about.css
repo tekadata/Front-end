@@ -1,0 +1,15 @@
+/* Content test*/
+.paragraphe_cream{
+  padding: 10px;
+  display : flex;
+  flex-wrap: wrap;
+ align-items:center;
+}
+
+.cream{
+  flex: 2;
+}
+
+.text-cream{
+  flex : 6;
+}

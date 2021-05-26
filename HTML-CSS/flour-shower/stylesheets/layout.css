@@ -1,0 +1,161 @@
+body {
+ overflow: hidden;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#sitepage{
+ margin:0;
+ height: 100vh;
+ width: 100vw;
+ display: grid;
+ grid-template-columns: 1fr;
+ grid-template-rows: 80px 1fr 50px;
+}
+/**********main******/
+main {
+ display: grid;
+ grid-template-columns: 1fr;
+ grid-template-rows:1fr;
+ overflow: hidden;
+}
+
+/**********contenant windows dans balise main pour créer le scrolling de la page******/
+.window {
+ overflow-y: scroll;
+ text-align:center;
+ float: center;
+}
+
+/**********header******/
+header{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	background:#284b63;
+	align-items: center;
+}
+
+.boxlogo {
+  flex-grow: 2;
+}
+.navbox {
+  flex-grow: 1;
+}
+
+.boxnav a {
+  flex-grow: 1;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+}
+.boxmiddle {
+  flex-grow: 3;
+}
+
+/**********Subfooter******/
+menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+}
+
+/********* Button *********/
+button {
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: #000000;
+   font-family: Verdana;
+   font-size: 10px;
+   font-weight: 100;
+   padding: 13px;
+   background-color: #FFD9A7;
+   border: solid #FFD9A7 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+button:hover {
+   background: #1ED037;
+   border: solid #1ED037 1px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+}
+
+.boxi {
+  flex-grow: 2;
+}
+
+.boxiti {
+  flex-grow: 2;
+}
+
+.boxbtn {
+  flex-grow: 1;
+}
+.box2 {
+  flex-grow: 3;
+}
+
+menu .boxticol ul li {
+  list-style-type: none;
+}
+
+menu .boxticol ul li p {
+  font-weight:bold;
+  text-decoration: none;
+  color: #000000;
+}
+
+menu .boxticol ul li a {
+  text-decoration: none;
+  color: #0025F8;
+}
+
+menu .boxtibak ul li {
+  list-style-type: none;
+}
+
+menu .boxtibak ul li p {
+  font-weight:bold;
+  text-decoration: none;
+  color: #000000;
+}
+
+menu .boxtibak ul li a {
+  text-decoration: none;
+  color: #0025F8;
+}
+
+
+.boxicone img {
+  flex-grow:1;
+  max-height: 32px;
+  max-width: 32px;
+  padding-right: 10px;
+}
+
+/**********footer******/
+footer{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	align-items: center;
+	border-top: 1px solid;
+}
+.boxfoot {
+  flex-grow: 2;
+}
+
+.boxicone{
+  max-height: 32px;
+  max-width: 32px;
+  padding-right: 10px;
+}
+
