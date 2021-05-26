@@ -1,0 +1,22 @@
+.square{
+ display: flex;
+ justify-content: space-between;
+}
+
+.one{
+width: 20px;
+height: 20px;
+background: red;
+}
+
+.two{
+width: 20px;
+height: 20px;
+background: red;
+}
+
+.three{
+width: 20px;
+height: 20px;
+background: red;
+}

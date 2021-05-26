@@ -1,0 +1,11 @@
+.itsawrap{
+	display: flex;
+	justify-content: space-between;
+}
+
+.square{
+	width: 20px;
+	height: 20px;
+	background: red;
+	margin-top: 50vh;
+}

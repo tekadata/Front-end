@@ -1,0 +1,22 @@
+body{
+display: flex;
+justify-content: center;
+ flex-wrap: wrap;
+align-items: center;
+height: 100vh;
+}
+
+.blocs{
+display: flex;
+ justify-content: space-between;
+ align-items:flex-end;
+ background:green;
+ width: 100px;
+height: 100px;
+ }
+
+.box{
+width: 20px;
+height: 20px;
+background:red;
+}

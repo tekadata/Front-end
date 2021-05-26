@@ -1,0 +1,14 @@
+body {
+  display: grid;
+  grid-template-columns: 300px 300px auto;
+}
+
+.columns{
+background-color: yellow;
+border: 1px solid black;
+height: 50px;
+}
+
+.container{
+width: 100%;
+}

@@ -1,0 +1,36 @@
+div{
+height: 50px;
+border:1px solid black;
+text-align: center;
+}
+
+
+@media screen and (max-width: 550px) {
+div.block6{
+width: 50%;
+}
+
+div.block3{
+width: 25%;
+}
+}
+
+@media screen and (min-width: 550px) and (max-width: 700px)  {
+.block1,.block4{
+width: 50%;
+}
+
+.block5,.block2,.block3,.block6{
+width: 25%;
+}
+}
+
+@media screen and (min-width: 700px) {
+.block1,.block4{
+width: 50%;
+}
+
+.block2,.block3{
+width: 25%;
+}
+}

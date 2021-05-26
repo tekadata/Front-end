@@ -1,0 +1,32 @@
+.block{
+  
+	height: 50px;
+	width: 50vh;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	text-align: center;
+  color: green;
+}
+
+.container{
+  width: 100%;
+}
+
+body {
+    display: flex;
+    color: red;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 550px) {
+  .container {
+    width: 100vh
+  }
+
+ /* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (min-width: 700px) {
+  .container {
+    width: 25vh
+  }
+}
