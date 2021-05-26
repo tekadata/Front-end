@@ -1,0 +1,36 @@
+.background1 {
+	background-color: red;
+	width: 30px;
+	height: 30px;
+}
+.background2 {
+	background-color: green;
+	width: 30px;
+	height: 30px;
+	margin-left: 45px;
+	margin-top: 15px;
+}
+
+.background3 {
+	background-color: yellow;
+	width: 30px;
+	height: 30px;
+	margin-left: 90px;
+	margin-top: 15px;
+}
+
+.background4 {
+	background-color: green;
+	width: 30px;
+	height: 30px;
+	margin-left: 135px;
+	margin-top: 15px;
+}
+
+.background5 {
+	background-color: red;
+	width: 30px;
+	height: 30px;
+	margin-left: 180px;
+	margin-top: 15px;
+}

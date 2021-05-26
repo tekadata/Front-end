@@ -1,0 +1,16 @@
+form{
+width: 200px;
+}
+
+input, textarea {
+width: 200px;
+vertical-align: top;
+}
+
+label{
+margin-bottom: 10px;
+}
+
+div{
+margin-bottom: 20px;
+}

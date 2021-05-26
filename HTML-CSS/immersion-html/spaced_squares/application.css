@@ -1,0 +1,20 @@
+.redstyle {
+	background-color: red;
+	width: 30px;
+	height: 30px;
+}
+.greenstyle {
+	background-color: green;
+	width: 30px;
+	height: 30px;
+}
+
+.yellowstyle {
+	background-color: yellow;
+	width: 30px;
+	height: 30px;
+}
+
+.whitestyle {
+	margin-bottom: 15px; 
+}

@@ -1,0 +1,24 @@
+table{
+border-collapse: separate;
+}
+
+.peinture{
+	border-spacing: 20px;
+}
+
+td{
+border-width: 1px;
+border-style: solid;
+border-color: black;
+padding: 10px;
+}
+
+figure{
+text-align: center;
+}
+
+figcaption{
+margin-top: 5px;
+text-decoration: underline;
+color:blue;
+}
